@@ -140,7 +140,10 @@ let user = await response.json();
 })();
 ```
 
-P.S. 新特性：从 V8 引擎 8.9+ 版本开始，顶层 await 可以在 [模块](info:modules) 中工作。
+P.S. 新特性：
+
+从 V8 引擎 8.9+ 版本开始，顶层 await 可以在 [模块](info:modules) 中工作；
+从 V8 引擎 9.1+ 版本开始，默认开启 Top-level await
 ````
 
 ````smart header="`await` 接受 \"thenables\""
